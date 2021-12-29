@@ -9,9 +9,6 @@ defmodule GenReport.MapUtils do
     deep_merge(left, right)
   end
 
-  # Key exists in both maps, but at least one of the values is
-  # NOT a map. We fall back to standard merge behavior, preferring
-  # the value on the right.
   defp deep_resolve(_key, left, right) do
     left + right
   end
