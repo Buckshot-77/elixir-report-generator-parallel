@@ -1,7 +1,7 @@
 defmodule GenReport.Support.ReportFixture do
   def build do
     %{
-      "all_hours" => %{
+      all_hours: %{
         "cleiton" => 13_797,
         "daniele" => 13_264,
         "danilo" => 13_583,
@@ -13,7 +13,7 @@ defmodule GenReport.Support.ReportFixture do
         "rafael" => 13_597,
         "vinicius" => 13_412
       },
-      "hours_per_month" => %{
+      hours_per_month: %{
         "cleiton" => %{
           "abril" => 1161,
           "agosto" => 1149,
@@ -155,7 +155,7 @@ defmodule GenReport.Support.ReportFixture do
           "setembro" => 1110
         }
       },
-      "hours_per_year" => %{
+      hours_per_year: %{
         "cleiton" => %{
           2016 => 2699,
           2017 => 2684,
