@@ -1,5 +1,6 @@
 defmodule GenReport.Report do
-  defstruct all_hours: %{
+  defstruct line: [],
+            all_hours: %{
               "cleiton" => 0,
               "daniele" => 0,
               "danilo" => 0,
